@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">  
+<suite name="Browser Test">  
+  <test name="Browser Basic Test">  
+	  <parameter name="env" value="QA"/>
+	  <parameter name="url" value="https://www.google.com"/>
+	  <parameter name="email" value="bhaumik.gohel@gmail.com"/>
+    <classes>  
+      <class name="common.mmrda.testcases.LoginPageTest"></class>
+      <class name="common.mmrda.testcases.HomePageTest"></class>
+       <class name="common.mmrda.testcases.VerifyEventPageTest"></class>
+       <class name="common.mmrda.testcases.CreateNewEventTest"></class>
+    </classes>  
+  </test> <!-- Test -->  
+</suite> <!-- Suite -->  

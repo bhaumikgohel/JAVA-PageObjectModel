@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="9" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-06T11:06:03 IST" name="Browser Test" finished-at="2024-05-06T11:08:26 IST" duration-ms="142615">
+    <groups>
+    </groups>
+    <test started-at="2024-05-06T11:06:03 IST" name="Browser Basic Test" finished-at="2024-05-06T11:08:26 IST" duration-ms="142615">
+      <class name="common.mmrda.testcases.VerifyEventPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:common.mmrda.testcases.VerifyEventPageTest@47e2e487]" started-at="2024-05-06T11:07:36 IST" name="setup" finished-at="2024-05-06T11:07:49 IST" duration-ms="12884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyEventDataTest()[pri:1, instance:common.mmrda.testcases.VerifyEventPageTest@47e2e487]" started-at="2024-05-06T11:07:49 IST" name="VerifyEventDataTest" finished-at="2024-05-06T11:07:49 IST" duration-ms="208" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Data Not Found]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Data Not Found
+at org.testng.Assert.fail(Assert.java:99)
+at common.mmrda.testcases.VerifyEventPageTest.VerifyEventDataTest(VerifyEventPageTest.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEventDataTest -->
+        <test-method is-config="true" signature="terminate()[pri:0, instance:common.mmrda.testcases.VerifyEventPageTest@47e2e487]" started-at="2024-05-06T11:07:49 IST" name="terminate" finished-at="2024-05-06T11:07:50 IST" duration-ms="1023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+        <test-method signature="VerifyDeleteEventTest()[pri:2, instance:common.mmrda.testcases.VerifyEventPageTest@47e2e487]" started-at="2024-05-06T11:07:50 IST" name="VerifyDeleteEventTest" finished-at="2024-05-06T11:07:50 IST" depends-on-methods="common.mmrda.testcases.VerifyEventPageTest.VerifyEventDataTest" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method VerifyEventPageTest.VerifyDeleteEventTest()[pri:2, instance:common.mmrda.testcases.VerifyEventPageTest@47e2e487] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method VerifyEventPageTest.VerifyDeleteEventTest()[pri:2, instance:common.mmrda.testcases.VerifyEventPageTest@47e2e487] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDeleteEventTest -->
+      </class> <!-- common.mmrda.testcases.VerifyEventPageTest -->
+      <class name="common.mmrda.testcases.CreateNewEventTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:common.mmrda.testcases.CreateNewEventTest@201a4587]" started-at="2024-05-06T11:07:50 IST" name="setup" finished-at="2024-05-06T11:08:04 IST" duration-ms="13890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyCreateNewEventHeading()[pri:1, instance:common.mmrda.testcases.CreateNewEventTest@201a4587]" started-at="2024-05-06T11:08:04 IST" name="VerifyCreateNewEventHeading" finished-at="2024-05-06T11:08:04 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCreateNewEventHeading -->
+        <test-method is-config="true" signature="terminate()[pri:0, instance:common.mmrda.testcases.CreateNewEventTest@201a4587]" started-at="2024-05-06T11:08:04 IST" name="terminate" finished-at="2024-05-06T11:08:05 IST" duration-ms="880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:common.mmrda.testcases.CreateNewEventTest@201a4587]" started-at="2024-05-06T11:08:05 IST" name="setup" finished-at="2024-05-06T11:08:19 IST" duration-ms="13743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Entereventdata()[pri:2, instance:common.mmrda.testcases.CreateNewEventTest@201a4587]" started-at="2024-05-06T11:08:19 IST" name="Entereventdata" finished-at="2024-05-06T11:08:25 IST" duration-ms="6160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Entereventdata -->
+        <test-method is-config="true" signature="terminate()[pri:0, instance:common.mmrda.testcases.CreateNewEventTest@201a4587]" started-at="2024-05-06T11:08:25 IST" name="terminate" finished-at="2024-05-06T11:08:26 IST" duration-ms="1215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- common.mmrda.testcases.CreateNewEventTest -->
+      <class name="common.mmrda.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:common.mmrda.testcases.LoginPageTest@4738a206]" started-at="2024-05-06T11:06:03 IST" name="setup" finished-at="2024-05-06T11:06:15 IST" duration-ms="11409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginpageTitleTest()[pri:1, instance:common.mmrda.testcases.LoginPageTest@4738a206]" started-at="2024-05-06T11:06:15 IST" name="LoginpageTitleTest" finished-at="2024-05-06T11:06:15 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginpageTitleTest -->
+        <test-method is-config="true" signature="terminate()[pri:0, instance:common.mmrda.testcases.LoginPageTest@4738a206]" started-at="2024-05-06T11:06:15 IST" name="terminate" finished-at="2024-05-06T11:06:16 IST" duration-ms="815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:common.mmrda.testcases.LoginPageTest@4738a206]" started-at="2024-05-06T11:06:16 IST" name="setup" finished-at="2024-05-06T11:06:25 IST" duration-ms="9549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logintest()[pri:2, instance:common.mmrda.testcases.LoginPageTest@4738a206]" started-at="2024-05-06T11:06:25 IST" name="logintest" finished-at="2024-05-06T11:06:26 IST" duration-ms="676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="terminate()[pri:0, instance:common.mmrda.testcases.LoginPageTest@4738a206]" started-at="2024-05-06T11:06:26 IST" name="terminate" finished-at="2024-05-06T11:06:27 IST" duration-ms="672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- common.mmrda.testcases.LoginPageTest -->
+      <class name="common.mmrda.testcases.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:common.mmrda.testcases.HomePageTest@71a8adcf]" started-at="2024-05-06T11:06:27 IST" name="setup" finished-at="2024-05-06T11:06:35 IST" duration-ms="8215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validatepagetitle()[pri:1, instance:common.mmrda.testcases.HomePageTest@71a8adcf]" started-at="2024-05-06T11:06:35 IST" name="validatepagetitle" finished-at="2024-05-06T11:06:37 IST" duration-ms="2441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatepagetitle -->
+        <test-method is-config="true" signature="terminate()[pri:0, instance:common.mmrda.testcases.HomePageTest@71a8adcf]" started-at="2024-05-06T11:06:37 IST" name="terminate" finished-at="2024-05-06T11:06:38 IST" duration-ms="632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:common.mmrda.testcases.HomePageTest@71a8adcf]" started-at="2024-05-06T11:06:38 IST" name="setup" finished-at="2024-05-06T11:06:47 IST" duration-ms="8894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateLogo()[pri:2, instance:common.mmrda.testcases.HomePageTest@71a8adcf]" started-at="2024-05-06T11:06:47 IST" name="validateLogo" finished-at="2024-05-06T11:06:49 IST" duration-ms="2388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogo -->
+        <test-method is-config="true" signature="terminate()[pri:0, instance:common.mmrda.testcases.HomePageTest@71a8adcf]" started-at="2024-05-06T11:06:49 IST" name="terminate" finished-at="2024-05-06T11:06:51 IST" duration-ms="1456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:common.mmrda.testcases.HomePageTest@71a8adcf]" started-at="2024-05-06T11:06:51 IST" name="setup" finished-at="2024-05-06T11:07:02 IST" duration-ms="11735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validatesection()[pri:3, instance:common.mmrda.testcases.HomePageTest@71a8adcf]" started-at="2024-05-06T11:07:02 IST" name="validatesection" finished-at="2024-05-06T11:07:05 IST" duration-ms="2640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatesection -->
+        <test-method is-config="true" signature="terminate()[pri:0, instance:common.mmrda.testcases.HomePageTest@71a8adcf]" started-at="2024-05-06T11:07:05 IST" name="terminate" finished-at="2024-05-06T11:07:06 IST" duration-ms="811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:common.mmrda.testcases.HomePageTest@71a8adcf]" started-at="2024-05-06T11:07:06 IST" name="setup" finished-at="2024-05-06T11:07:18 IST" duration-ms="12096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validatecontact()[pri:4, instance:common.mmrda.testcases.HomePageTest@71a8adcf]" started-at="2024-05-06T11:07:18 IST" name="validatecontact" finished-at="2024-05-06T11:07:21 IST" duration-ms="3158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatecontact -->
+        <test-method is-config="true" signature="terminate()[pri:0, instance:common.mmrda.testcases.HomePageTest@71a8adcf]" started-at="2024-05-06T11:07:21 IST" name="terminate" finished-at="2024-05-06T11:07:22 IST" duration-ms="1006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:common.mmrda.testcases.HomePageTest@71a8adcf]" started-at="2024-05-06T11:07:22 IST" name="setup" finished-at="2024-05-06T11:07:31 IST" duration-ms="9424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateconatctlink()[pri:5, instance:common.mmrda.testcases.HomePageTest@71a8adcf]" started-at="2024-05-06T11:07:31 IST" name="validateconatctlink" finished-at="2024-05-06T11:07:35 IST" duration-ms="3370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateconatctlink -->
+        <test-method is-config="true" signature="terminate()[pri:0, instance:common.mmrda.testcases.HomePageTest@71a8adcf]" started-at="2024-05-06T11:07:35 IST" name="terminate" finished-at="2024-05-06T11:07:36 IST" duration-ms="955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- common.mmrda.testcases.HomePageTest -->
+    </test> <!-- Browser Basic Test -->
+  </suite> <!-- Browser Test -->
+</testng-results>

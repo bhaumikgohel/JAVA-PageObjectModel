@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Browser Test]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Browser Basic Test(failed)">
+    <parameter name="env" value="QA"/>
+    <parameter name="url" value="https://www.google.com"/>
+    <parameter name="email" value="bhaumik.gohel@gmail.com"/>
+    <classes>
+      <class name="common.mmrda.testcases.VerifyEventPageTest">
+        <methods>
+          <include name="VerifyDeleteEventTest"/>
+          <include name="setup"/>
+          <include name="terminate"/>
+          <include name="VerifyEventDataTest"/>
+        </methods>
+      </class> <!-- common.mmrda.testcases.VerifyEventPageTest -->
+    </classes>
+  </test> <!-- Browser Basic Test(failed) -->
+</suite> <!-- Failed suite [Browser Test] -->
