@@ -70,7 +70,7 @@ public class HomePage extends TestBase{
 	public ContactPage ClickOnContactlink() {
 		a.moveToElement(Contactlink).build().perform();
 		Contactlink.click();
-		
+		// it return to the contact page 
 		return new ContactPage();
 	}
 }
