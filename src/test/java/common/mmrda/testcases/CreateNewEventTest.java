@@ -25,7 +25,7 @@ public class CreateNewEventTest extends TestBase{
 	CreateNewEventPage createvent;
 	VerifyEventPage verifyeventpage;
 	
-	String Eventdata = "eventdata";
+	String sheetName = "eventdata";
 	
 	public CreateNewEventTest() {
 		super();
@@ -49,7 +49,7 @@ public class CreateNewEventTest extends TestBase{
 	@DataProvider
 	public Object[][] getEventData() {
 		
-		Object data[][] = Testutil.getTestData(Eventdata);
+		Object data[][] = Testutil.getTestData(sheetName);
 		return data;
 	}
 	

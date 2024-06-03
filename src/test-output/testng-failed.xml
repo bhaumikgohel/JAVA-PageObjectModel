@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="common.mmrda.testcases.AddContactPageTest">
+      <class name="common.mmrda.testcases.AddCompanyPageTest">
         <methods>
-          <include name="Add_contactpage_Data_Test"/>
-          <include name="Terminate"/>
-          <include name="Setup"/>
+          <include name="setup"/>
+          <include name="CheckCompanyPageHeadingTest"/>
+          <include name="terminate"/>
         </methods>
-      </class> <!-- common.mmrda.testcases.AddContactPageTest -->
+      </class> <!-- common.mmrda.testcases.AddCompanyPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -25,7 +25,7 @@ public class AddContactPageTest extends TestBase{
 	ContactPage Contactpage;
 	AddContactPage Addcontactpage;
 	ReviewContactData reviewcontactdata;
-	String contactsheet = "contactdata";
+	String sheetName = "contactdata";
 	
 	public AddContactPageTest() {
 		super();
@@ -56,7 +56,7 @@ public class AddContactPageTest extends TestBase{
 	@DataProvider
 	public Object[][] getContactdata(){
 		
-		Object data[][] = Testutil.getContactData(contactsheet);
+		Object data[][] = Testutil.getTestData(sheetName);
 		return data;
 		
 	}
