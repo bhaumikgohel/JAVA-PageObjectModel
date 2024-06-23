@@ -26,12 +26,12 @@ public class LoginPage extends TestBase {
 		PageFactory.initElements(driver, this);
 	}
 	
-	//Actions
+	//Validate Page Tilte of the login page
 	public String validateLoginPageTitle() {
 		return driver.getTitle();
 	}
 	
-	
+	// Now user enter valid credentials
 	public HomePage login(String un, String pwd) {
 		
 		username.sendKeys(un);
